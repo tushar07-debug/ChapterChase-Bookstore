@@ -8,7 +8,7 @@ import CardDetail from "./CardDetail";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-const stripePromise = loadStripe('pk_test_51PY8KTRsGojz0TAjzERUuHclxlZZ9GgQzd8rezCdrYY1ObO0387f04cFvMUhDjzvWh1bFClSQBjiVmWOND4Qnlku00ivR8BMXj'); 
+const stripePromise = loadStripe('v'); 
 
 function App() {
   const books = [
